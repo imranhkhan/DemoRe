@@ -23,6 +23,7 @@ public class Temp {
 		 fragment = fragment+"\n";
 		 bw.write(fragment);
 	 }
+         System.out.println("Working fine");
 	 bw.flush();
 	 bw.close();
 	 br.close();
